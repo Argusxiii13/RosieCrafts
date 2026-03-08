@@ -4,19 +4,19 @@ export const brand = {
 }
 
 export const contact = {
-  email: 'hello@rosiecrafts.com',
+  email: 'rosieecrafts@gmail.com',
   socials: [
     {
       label: 'Instagram',
-      href: 'https://instagram.com/rosiecrafts',
+      href: 'https://www.instagram.com/rosiecrafts__',
     },
     {
       label: 'Facebook',
-      href: 'https://facebook.com/rosiecrafts',
+      href: 'https://www.facebook.com/RosieeCrafts',
     },
     {
       label: 'TikTok',
-      href: 'https://tiktok.com/@rosiecrafts',
+      href: 'https://tiktok.com/@rosiecrafts__',
     },
   ],
   cta: 'Interested? Message me to order!',

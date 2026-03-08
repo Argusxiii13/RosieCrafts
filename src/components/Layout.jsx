@@ -7,10 +7,14 @@ function Layout() {
       <header className="site-header">
         <div className="main-nav-wrap">
           <div className="brand-wrap">
-            <span className="brand-logo" aria-hidden="true">
-              RC
-            </span>
-            <div>
+            <img
+              className="brand-mark"
+              src="/rosiecrafticon1.png"
+              alt=""
+              aria-hidden="true"
+              loading="eager"
+            />
+            <div className="brand-copy">
               <h1 className="brand-name">{brand.name}</h1>
               <p className="brand-tagline">{brand.tagline}</p>
             </div>

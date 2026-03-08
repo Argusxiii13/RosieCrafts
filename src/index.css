@@ -1,9 +1,18 @@
 :root {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --color-primary: #dcafaa;
+  --color-secondary: #3f4f35;
+  --color-secondary-soft: #55674b;
+  --color-text: #24301e;
+  --color-bg: #f6f4ef;
+  --color-surface: #ffffff;
+  --color-border: #d7cec4;
+  --color-primary-soft: #efd9d6;
+  --color-primary-strong: #c9928d;
   line-height: 1.5;
   font-weight: 400;
-  color: #3f2a21;
-  background: #fff9f6;
+  color: var(--color-text);
+  background: var(--color-bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,7 +32,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #fff9f6;
+  background: var(--color-bg);
 }
 
 button,

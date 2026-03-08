@@ -6,6 +6,11 @@ export const categoryLabels = {
   other: 'Other Handicrafts',
 }
 
+const samplePhotos = (slug) =>
+  Array.from({ length: 15 }, (_, index) =>
+    `https://picsum.photos/seed/${slug}-${index + 1}/1200/1200`
+  )
+
 export const products = [
   {
     id: 'rose-crochet-bouquet',
@@ -17,10 +22,7 @@ export const products = [
     price: '₱1,250',
     status: 'available',
     featured: true,
-    photos: [
-      'https://images.unsplash.com/photo-1519682577862-22b62b24e493?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80',
-    ],
+    photos: samplePhotos('rose-crochet-bouquet'),
   },
   {
     id: 'sunset-graphic-print',
@@ -32,10 +34,7 @@ export const products = [
     price: '₱350',
     status: 'available',
     featured: true,
-    photos: [
-      'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1000&q=80',
-    ],
+    photos: samplePhotos('sunset-graphic-print'),
   },
   {
     id: 'mini-surprise-box',
@@ -47,10 +46,7 @@ export const products = [
     price: '₱499',
     status: 'available',
     featured: true,
-    photos: [
-      'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1607349913338-fca6f7fc42d0?auto=format&fit=crop&w=1000&q=80',
-    ],
+    photos: samplePhotos('mini-surprise-box'),
   },
   {
     id: 'lavender-keychain',
@@ -62,9 +58,7 @@ export const products = [
     price: '₱180',
     status: 'sold',
     featured: false,
-    photos: [
-      'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1000&q=80',
-    ],
+    photos: samplePhotos('lavender-keychain'),
   },
   {
     id: 'botanical-wall-print',
@@ -76,9 +70,7 @@ export const products = [
     price: '₱420',
     status: 'available',
     featured: false,
-    photos: [
-      'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1000&q=80',
-    ],
+    photos: samplePhotos('botanical-wall-print'),
   },
   {
     id: 'hand-painted-tag-set',
@@ -90,9 +82,7 @@ export const products = [
     price: '₱240',
     status: 'available',
     featured: false,
-    photos: [
-      'https://images.unsplash.com/photo-1482160549825-59d1b23cb208?auto=format&fit=crop&w=1000&q=80',
-    ],
+    photos: samplePhotos('hand-painted-tag-set'),
   },
 ]
 
